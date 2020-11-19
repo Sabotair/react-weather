@@ -3,6 +3,7 @@ import { Form, Input, Container } from 'semantic-ui-react'
 import { getWeatherCity } from '../../store/weather/actions'
 import { useDispatch, useSelector } from 'react-redux'
 import axios from 'axios'
+import { URL } from '../../index'
 
 const SearchWeather = () => {
   const [search, setSearch] = useState('')
