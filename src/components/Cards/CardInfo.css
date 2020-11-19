@@ -1,0 +1,23 @@
+.header {
+  color: black;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.card__container {
+  width: 470px;
+  margin: 0 auto;
+}
+.temp {
+  margin: 15px 0 0 0;
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+  float: right;
+}
+
+.description__info {
+  margin: 40px 0 0 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  line-height: 25px;
+}
