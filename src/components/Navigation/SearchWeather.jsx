@@ -11,9 +11,7 @@ const SearchWeather = () => {
 
   const handleSearh = async () => {
     try {
-      const res = await axios.get(
-        `/weather?appid=5bce41e220e023ec6710ea4f4bc73c95&units=metric&q=${search}`
-      )
+      const res = await axios.get(`${URL}${search}`)
       let isValid = city.filter((item) => item.id === res.data.id)
       if (isValid.length === 0) {
         dispatch(getWeatherCity(res.data))

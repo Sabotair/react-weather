@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route exact component={MainPage} path={'/react-weather'} />
         <Route exact component={InfoPage} path={'/weather'} />
-        <Redirect from="*" to="/" />
+        <Redirect from="*" to="/react-weather" />
       </Switch>
     </Router>
   )

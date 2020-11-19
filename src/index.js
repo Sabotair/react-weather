@@ -8,8 +8,8 @@ import { store } from './store/store'
 import { Provider } from 'react-redux'
 import Axios from 'axios'
 
-Axios.defaults.baseURL = 'http://api.openweathermap.org/data/2.5/'
 export const URL = `/weather?appid=5bce41e220e023ec6710ea4f4bc73c95&units=metric&q=`
+Axios.defaults.baseURL = 'https://api.openweathermap.org/data/2.5/'
 
 ReactDOM.render(
   <Provider store={store}>

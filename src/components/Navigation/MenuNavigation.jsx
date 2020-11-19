@@ -7,9 +7,9 @@ const MenuNavigation = () => {
   return (
     <Container>
       <Menu color="teal">
-        <Link to={'/'}>
+        <Link to={'/react-weather'}>
           <Menu.Item>
-            <Image src="/logo.png" alt="logo" size="mini" />
+            <Image src="/build/logo.png" alt="logo" size="mini" />
           </Menu.Item>
         </Link>
       </Menu>
